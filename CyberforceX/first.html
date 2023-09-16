@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom PC Builder</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to an external CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Custom PC Builder</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/secand.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/third.html">Products</a></li>
+                <li><a href="http://127.0.0.1:5500/fifth.html">Contact</a></li>
+                <li><a href="http://127.0.0.1:5500/fourh.html">about us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pc-builder">
+        <h2>Build Your Custom PC</h2>
+        <p>Select the components for your custom PC:</p>
+        <form action="submit_form.php" method="POST">
+            <label for="cpu">CPU:</label>
+            <select name="cpu" id="cpu">
+                <option value="cpu1">CPU ryzen 7</option>
+                <option value="cpu2">CPU intel i5 4450</option>
+                <option value="cpu2">CPU ryzen 7</option>
+                <!-- Add more CPU options here -->
+            </select>
+
+            <label for="gpu">GPU:</label>
+            <select name="gpu" id="gpu">
+                <option value="gpu1">GPU 2060</option>
+                <option value="gpu2">GPU 3060</option>
+                <!-- Add more GPU options here -->
+            </select>
+
+
+
+            <label for="ram">ram:</label>
+            <select name="ram" id="ram">
+                <option value="ram1">Ram 8</option>
+                <option value="ram2">Ram 16</option>
+                <option value="ram3">Ram 32</option>
+                <!-- Add more GPU options here -->
+            </select>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Add more component selections here (RAM, storage, motherboard, etc.) -->
+
+            <input type="submit" value="Build My PC">
+        </form>
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+        <!-- Add product listings here with images, descriptions, and prices -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Custom PC Builder</p>
+    </footer>
+</body>
+</html>
+echo "# costome_pc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Peleg56/costome_pc.git
+git push -u origin main

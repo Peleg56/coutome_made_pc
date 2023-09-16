@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Custom PC Builder</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Custom PC Builder</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/secand.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/first.html">Build Your PC</a></li>
+                <li><a href="http://127.0.0.1:5500/third.html">Products</a></li>
+                <li><a href="http://127.0.0.1:5500/fifth.html">Contact</a></li>
+                <li><a href="http://127.0.0.1:5500/fourh.html">about us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-form">
+        <h2>Login</h2>
+        <form action="login.php" method="POST"> <!-- Replace "login.php" with the actual server-side script for handling login -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="remember">Remember Me:</label>
+            <input type="checkbox" id="remember" name="remember">
+
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Custom PC Builder</p>
+    </footer>
+</body>
+</html>
+echo "# costome_pc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Peleg56/costome_pc.git
+git push -u origin main
